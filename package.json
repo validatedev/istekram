@@ -1,0 +1,25 @@
+{
+  "build": {
+    "appId": "com.validatedev.istekram",
+    "icon": "./res/img/icon.png",
+    "linux": {
+      "category": "Social"
+    }
+  },
+  "name": "istekram",
+  "productName": "Istekram",
+  "version": "0.1.2",
+  "description": "A simple Instagram website wrapper",
+  "main": "main.js",
+  "icon": "./res/img/icon.png",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux snap"
+  },
+  "author": "validatedev",
+  "license": "GPL",
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  }
+}
