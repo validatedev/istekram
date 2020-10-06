@@ -19,7 +19,7 @@
   "author": "validatedev",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^9.1.0",
+    "electron": "^9.3.0",
     "electron-builder": "^22.7.0"
   }
 }
